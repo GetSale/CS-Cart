@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>getsale</id>
+    <version>1.0</version>
+    <priority>10</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>ru</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="getsale_desc">
+                        <type>info</type>
+                        <handler>fn_getsale_decs</handler>
+                    </item>
+                    <item id="connect">
+                        <type>template</type>
+                        <default_value>connect.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install">
+            CREATE TABLE `?:getsale` (
+            `project_id` int(11) unsigned NOT NULL,
+            `email` varchar(20),
+            `key` varchar(40),
+            PRIMARY KEY (`project_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:getsale;</item>
+    </queries>
+</addon>
