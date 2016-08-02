@@ -6,7 +6,7 @@ if (!defined('BOOTSTRAP')) {
 use Tygh\Registry;
 
 /*
- * Выводит скрипт getSale на сайт
+ * Выводит скрипт GetSale на сайт
  */
 
 $id = fn_getsale_id();

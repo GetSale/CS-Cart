@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin Name: getSale
+ * Plugin Name: GetGale
  * Plugin URI:  http://getsale.io/
- * Description: getSale — профессиональный инструмент для создания popup-окон
+ * Description: GetSale &mdash; профессиональный инструмент для создания popup-окон.
  * Version:     1.0.0
- * Author:      getSale Team
+ * Author:      GetSale Team
  * Author URI:  http://getsale.io/
  * License:     GPL3
  */
@@ -17,6 +17,12 @@ use Tygh\Mailer;
 
 function fn_getsale_decs() {
     return __('getsale.getsale_desc');
+}
+
+function fn_getsale_delete_cart_product(&$cart, $cart_id, $full_erase) {
+    if ($full_erase) {
+        setcookie('GETSALE_DELETE', 'Y');
+    }
 }
 
 function fn_getsale_get_reg($email, $key, $url) {

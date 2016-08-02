@@ -6,6 +6,6 @@ if (!defined('BOOTSTRAP')) {
     die('Access denied');
 }
 
-fn_register_hooks(
-    'delete_cart_product'
-);
+if ($mode == 'add') {
+    setcookie('GETSALE_REG', 'Y', '', '/');
+}
