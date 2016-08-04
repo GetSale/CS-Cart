@@ -17,8 +17,8 @@ msgid "<a id=\"auth\" class=\"cm-ajax cm-comet btn btn-primary\" href=\"[reg_get
 msgstr "<a id=\"auth\" class=\"cm-ajax cm-comet btn btn-primary\" href=\"[reg_getsale]&url=[http_location]\"  style=\"text-align:center;\">Авторизация</a>"
 
 msgctxt "Languages::getsale_connect_notification"
-msgid "The <a href=\"[addon_link]\">GetSale</a> is not connected to the <a href=\"http://getsale.io\" target=\"_blank\">GetSale service</a>. Set it up to enable."
-msgstr "В настоящий момент <a href=\"[addon_link]\">модуль GetSale</a> не подключён. Настройте этот модуль, указав ваш Email и Ключ API с сайта <a href=\"http://getsale.io\" target=\"_blank\">GetSale</a> в настройках модуля."
+msgid "The <a href=\"[addon_link]\">GetSale</a> is not connected to the <a href=\"https://getsale.io\" target=\"_blank\">GetSale service</a>. Set it up to enable."
+msgstr "В настоящий момент <a href=\"[addon_link]\">модуль GetSale</a> не подключён. Настройте этот модуль, указав ваш Email и Ключ API с сайта <a href=\"https://getsale.io\" target=\"_blank\">GetSale</a> в настройках модуля."
 
 msgctxt "Languages::getsale.getsale_desc"
 msgid "Try GetSale"
@@ -33,12 +33,12 @@ msgid "Auth"
 msgstr "Авторизация"
 
 msgctxt "Languages::getsale.help1"
-msgid "Input values from <a href=\"http://getsale.io\" \">GetSale</a>"
-msgstr "Введите Email и ключ API из личного кабинета <a href=\"http://getsale.io\" \">GetSale</a>"
+msgid "Input values from <a href=\"https://getsale.io\" \">GetSale</a>"
+msgstr "Введите Email и ключ API из личного кабинета <a href=\"https://getsale.io\" \">GetSale</a>"
 
 msgctxt "Languages::getsale.help2"
-msgid "Registration in <a href=\"http://getsale.io\" target=\"_blank\">GetSale</a>"
-msgstr "Если вы ещё не зарегистрировались в сервисе GetSale это можно сделать по ссылке <a href=\"http://getsale.io\" target=\"_blank\">GetSale</a>"
+msgid "Registration in <a href=\"https://getsale.io\" target=\"_blank\">GetSale</a>"
+msgstr "Если вы ещё не зарегистрировались в сервисе GetSale это можно сделать по ссылке <a href=\"https://getsale.io\" target=\"_blank\">GetSale</a>"
 
 msgctxt "Languages::getsale.help3"
 msgid "TechSupport <a href=\"mailto:support@getsale.io\">support@getsale.io</a>"
@@ -50,7 +50,7 @@ msgstr "CS-Cart GetSale"
 
 msgctxt "Languages::getsale.help5"
 msgid "Help 5"
-msgstr "Войдите в личный кабинет <a href=\"http://getsale.io\" target=\"_blank\">GetSale</a> для просмотра статистики."
+msgstr "Войдите в личный кабинет <a href=\"https://getsale.io\" target=\"_blank\">GetSale</a> для просмотра статистики."
 
 msgctxt "Languages::getsale_auth_error"
 msgid "Auth Error"
@@ -62,7 +62,7 @@ msgstr "GetSale"
 
 msgctxt "Languages::getsale.success"
 msgid "Success"
-msgstr "Поздравляем! Ваш сайт успешно привязан к аккаунту <a href=\"http://getsale.io\" target=\"_blank\">GetSale</a>."
+msgstr "Поздравляем! Ваш сайт успешно привязан к аккаунту <a href=\"https://getsale.io\" target=\"_blank\">GetSale</a>."
 
 msgctxt "Languages::getsale.error_empty_fields"
 msgid "Error Empty Fields"
@@ -74,7 +74,7 @@ msgstr "Введен неверный ключ API!"
 
 msgctxt "Languages::getsale.error_404"
 msgid "Error 404"
-msgstr "Данный email не зарегистрирован на сайте http://getsale.io"
+msgstr "Данный email не зарегистрирован на сайте https://getsale.io"
 
 msgctxt "Languages::getsale.error_500"
 msgid "Error 500"

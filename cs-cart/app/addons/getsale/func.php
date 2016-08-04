@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: GetGale
- * Plugin URI:  http://getsale.io/
+ * Plugin URI:  https://getsale.io/
  * Description: GetSale &mdash; профессиональный инструмент для создания popup-окон.
  * Version:     1.0.0
  * Author:      GetSale Team
- * Author URI:  http://getsale.io/
+ * Author URI:  https://getsale.io/
  * License:     GPL3
  */
 if (!defined('BOOTSTRAP')) {
@@ -31,7 +31,7 @@ function fn_getsale_get_reg($email, $key, $url) {
     }
     $ch = curl_init();
     $jsondata = json_encode(array('email' => $email, 'key' => $key, 'url' => $url, 'cms' => 'cscart'));
-    $options = array(CURLOPT_HTTPHEADER => array('Content-Type:application/json', 'Accept: application/json'), CURLOPT_URL => "http://edge.getsale.io/" . "/api/registration.json", CURLOPT_POST => 1, CURLOPT_POSTFIELDS => $jsondata, CURLOPT_RETURNTRANSFER => true);
+    $options = array(CURLOPT_HTTPHEADER => array('Content-Type:application/json', 'Accept: application/json'), CURLOPT_URL => "https://getsale.io/" . "/api/registration.json", CURLOPT_POST => 1, CURLOPT_POSTFIELDS => $jsondata, CURLOPT_RETURNTRANSFER => true);
     curl_setopt_array($ch, $options);
     $json_result = json_decode(curl_exec($ch));
     curl_close($ch);
@@ -64,7 +64,7 @@ function fn_getsale_script($id) {
       f = function () { n.parentNode.insertBefore(s, n); };
       s.type = "text/javascript";
       s.async = true;
-      s.src = "//rt.edge.getsale.io/loader.js";
+      s.src = "//rt.getsale.io/loader.js";
       if (w.opera == "[object Opera]") {
           d.addEventListener("DOMContentLoaded", f, false);
       } else { f(); }
