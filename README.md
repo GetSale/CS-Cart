@@ -1,4 +1,4 @@
-#getSale
+#GetSale
 Tags: getsale, popup, popups    
 Tested up to: 4.3.9  
 Stable tag: 1.0.0  
